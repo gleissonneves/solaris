@@ -1,0 +1,43 @@
+/* hierarquia button
+bt
+   tamanho (pode ser "s/l/bl" ou só bt que é o padrão)
+      cor
+         tipo (pode ser  "n/o")
+*/
+
+.bt{
+   display: inline-block;
+   padding: .375rem .75rem;
+   font-size: 1rem;
+   line-height: 1.5;
+   border-radius: .25rem;
+   transition: color .10s ease-in-out,background-color .10s ease-in-out,border-color .10s ease-in-out,box-shadow .10s ease-in-out;
+   border: 1px solid transparent;
+   text-align: center;
+   font-weight: 400;
+}
+   /* ---- Tamanho ---- */
+      .bt-s{
+         padding: .25rem .5rem;
+         font-size: .875rem;
+         line-height: 1.5;
+         border-radius: .2rem;
+      }
+      .bt-l{
+         padding: .2rem 1rem;
+         font-size: 1.25rem;
+         line-height: 1.5;
+         border-radius: .3rem;
+      }
+
+
+
+   /* ---- cor ---- */
+      .bt-background-0{
+         background-color: var(--little-2);
+         color: var(--little-1);
+      }
+      .bt-background-1{
+         background-color: var(--background-1);
+         color: var(--color-0);
+      }

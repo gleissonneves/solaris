@@ -1,0 +1,88 @@
+/* hierarquia draw
+draw
+   tamanho (pode ser "s/l/bl")
+      corpo
+         corpo-header
+            header-title e btn header-close
+         corpo-body
+            draw-body-content
+         corpo-footer
+            link/button
+*/
+
+
+.draw{
+   position: relative;
+   top: auto;
+   right: auto;
+   bottom: auto;
+   left: auto;
+   z-index: 1;
+   display: block;
+   background-color: var(--background-1);
+   border-radius: .3rem;
+   box-sizing:0 0 8px var(--background-1);
+   border: 1px solid rgba(0,0,0,.2);
+   display: flex;
+}
+
+   /*
+      draw-s (small/pequeno)
+      draw-l (large/largo)
+      draw-m (Extra large/ estra largo)
+   */
+   .draw-s{
+      position: absolute;
+      z-index:2;
+      width:320px;
+   }
+
+   .draw-l{
+      position: absolute;
+      z-index:2;
+      width:800px;
+   }
+
+   .draw-bl{
+      position: absolute;
+      z-index:2;
+      width:1140px;
+   }
+
+   /* --- corpo  --- */
+      /* --- cabeçalho  --- */
+      .draw-header{
+         display: flex;
+         align-items: flex-start;
+         justify-content: space-between;
+      }
+         .draw-header .draw-header-title{
+            color: var(--color-0);
+            font-size: 1.25rem;
+         }
+         .draw-header .draw-header-close{
+            color: var(--color-0);
+         }
+
+      /* cabeçalho e roda pé */
+      .draw-header,
+      .draw-footer{
+         min-height:50px;
+         max-height:80px;
+         width:100%;
+         padding: 1rem 1rem;
+      }
+
+
+      /* corpo */
+      .draw-body{
+         overflow-y:auto;
+         min-height:100px;
+      }
+
+      /* roda pé */
+      .draw-footer{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-end;
+      }

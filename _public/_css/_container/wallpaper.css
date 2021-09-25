@@ -1,0 +1,7 @@
+.banner{
+   width: var(--width-full);
+   height:350px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}

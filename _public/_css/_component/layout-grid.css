@@ -1,0 +1,215 @@
+/*  spine (espinha)
+   spn- (largura da coluna)
+   o sistema de coluna é de 5 em 5 até 100% (cem porcento)
+   ___________________________
+   \   \\   \\   \\   \\    \
+   \5% \\10%\\15%\\...\\100%\
+   \___\\___\\___\\___\\____\
+*/
+
+
+.spn-05, .spn-1, .spn-15, .spn-2, .spn-25, .spn-3, .spn-35, .spn-4, .spn-45, .spn-5,
+.spn-55, .spn-6, .spn-65, .spn-7, .spn-75, .spn-8, .spn-85, .spn-9, .spn-95, .spn-10 {
+   position: flex;
+   width: 100%;
+}
+
+/*  */
+@media (min-width: 700px) {
+   .spn-05{
+      width: 5%;
+   }
+   .spn-1{
+      width: 10%;
+   }
+   .spn-15{
+      width: 15%;
+   }
+   .spn-2{
+      width: 20%;
+   }
+   .spn-25{
+      width: 25%;
+   }
+   .spn-3{
+      width: 30%;
+   }
+   .spn-35{
+      width: 35%;
+   }
+   .spn-4{
+      width: 40%;
+   }
+   .spn-45{
+      width: 45%;
+   }
+   .spn-5{
+      width: 50%;
+   }
+   .spn-55{
+      width: 55%;
+   }
+   .spn-6{
+      width: 60%;
+   }
+   .spn-65{
+      width: 65%;
+   }
+   .spn-7{
+      width: 70%;
+   }
+   .spn-75{
+      width: 75%;
+   }
+   .spn-8{
+      width: 80%;
+   }
+   .spn-85{
+      width: 85%;
+   }
+   .spn-9{
+      width: 80%;
+   }
+   .spn-95{
+      width: 95%;
+   }
+   .spn-10{
+      width: 100%;
+   }
+
+
+}
+@media (min-width: 1000px) {
+   .spn-05{
+      width: 5%;
+   }
+   .spn-1{
+      width: 10%;
+   }
+   .spn-15{
+      width: 15%;
+   }
+   .spn-2{
+      width: 20%;
+   }
+   .spn-25{
+      width: 25%;
+   }
+   .spn-3{
+      width: 30%;
+   }
+   .spn-35{
+      width: 35%;
+   }
+   .spn-4{
+      width: 40%;
+   }
+   .spn-45{
+      width: 45%;
+   }
+   .spn-5{
+      width: 50%;
+   }
+   .spn-55{
+      width: 55%;
+   }
+   .spn-6{
+      width: 60%;
+   }
+   .spn-65{
+      width: 65%;
+   }
+   .spn-7{
+      width: 70%;
+   }
+   .spn-75{
+      width: 75%;
+   }
+   .spn-8{
+      width: 80%;
+   }
+   .spn-85{
+      width: 85%;
+   }
+   .spn-9{
+      width: 80%;
+   }
+   .spn-95{
+      width: 95%;
+   }
+   .spn-10{
+      width: 100%;
+   }
+}
+@media (min-width: 1280px) {
+   .spn-05{
+      width: 5%;
+   }
+   .spn-1{
+      width: 10%;
+   }
+   .spn-15{
+      width: 15%;
+   }
+   .spn-2{
+      width: 20%;
+   }
+   .spn-25{
+      width: 25%;
+   }
+   .spn-3{
+      width: 30%;
+   }
+   .spn-35{
+      width: 35%;
+   }
+   .spn-4{
+      width: 40%;
+   }
+   .spn-45{
+      width: 45%;
+   }
+   .spn-5{
+      width: 50%;
+   }
+   .spn-55{
+      width: 55%;
+   }
+   .spn-6{
+      width: 60%;
+   }
+   .spn-65{
+      width: 65%;
+   }
+   .spn-7{
+      width: 70%;
+   }
+   .spn-75{
+      width: 75%;
+   }
+   .spn-8{
+      width: 80%;
+   }
+   .spn-85{
+      width: 85%;
+   }
+   .spn-9{
+      width: 80%;
+   }
+   .spn-95{
+      width: 95%;
+   }
+   .spn-10{
+      width: 100%;
+   }
+}
+
+
+
+/*  */
+.sizefull {
+	width: 100%;
+	height: 100%;
+}
+.w-full {width: 100%;}
+.h-full {height: 100%;}

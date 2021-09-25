@@ -1,0 +1,26 @@
+.section {
+   width: var(--whidth-full);
+   height: 375px;
+   max-height: var(--height-auto);
+   display: flex;
+}
+
+   .section-infor-sys {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+
+   .section-infor-tool {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: var(--little-2);
+   }
+
+   .section-infor-dev {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: var(--little-1);
+   }

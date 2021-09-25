@@ -1,0 +1,5 @@
+.nav{
+   width: var(--width-full);
+   height: 50px;
+   background-color: var(--dark-3);
+}
