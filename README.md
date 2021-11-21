@@ -1,11 +1,6 @@
 <h1 align="center">
-    <a href="#/">Auth vue</a>
+    <a href="#/">Solaris Landing Page</a>
 </h1>
-<p align="center">🚀 acesse ao seu sistemas de forma rápida!!</p>
-<p align="center">
-<img src="https://img.shields.io/static/v1?label=framework&message=Vue&color=4FC08D&style=for-the-badge&logo=vue.js"/>
-<img src="https://img.shields.io/static/v1?label=framework&message=Firebase&color=FFCA28&style=for-the-badge&logo=firebase"/>
-</p>
 <p align="center">
 <img src="https://img.shields.io/badge/license-MIT-blue"/>
 <img src="https://img.shields.io/badge/status project-finished-red"/>
@@ -28,10 +23,9 @@
 Este aplicativo foi desenvolvido como objetivo de estudo e libertarrrrr a criatividade.
 
 ## :framed_picture: Screens
-<p align="center">
 [visite](https://www.behance.net/gallery/94769111/Solaris) e tenha uma visão sobre
 essa landing page!
-</p>
+
 ## Estrutura de pastas
 <pre>
 Projeto/
