@@ -1,0 +1,49 @@
+/*  sctuture default - ITCSS
+- Settings
+   - Tool
+      - Generic
+         - Elements
+            - Objects
+               - Components
+                  - Utilitie (Trumps)
+*/
+/* ================ SETTINGS ================ */
+   @import 'settings/dark.css';
+   @import 'settings/little.css';
+   @import 'settings/sizefull.css';
+
+
+/* ================ TOOL ================ */
+
+
+/* ================ GENERIC ================ */
+
+
+/* ================ ELEMENTS ================ */
+   @import 'element/reset.css';
+
+/* ================ OBEJECTS ================ */
+
+
+/* ================ COMPONENTS ================ */
+   @import 'component/comp-button.css';
+   @import 'component/font-typography.css';
+   @import 'component/layout-canned.css';
+   @import 'component/layout-draw.css';
+   @import 'component/layout-flex.css';
+   @import 'component/layout-grid.css';
+   @import 'component/layout-position.css';
+   @import 'component/comp-some.css';/* paddings and margins */
+
+   @import 'component/shape-display.css';
+   @import 'component/shape-float.css';
+   @import 'component/shape-opacity.css';
+
+
+/* ================ UTILITIE ================ */
+   @import 'container/header.css';
+   @import 'container/nav.css';
+   @import 'container/wallpaper.css';
+   @import 'container/section.css';
+   @import 'container/wardrobe.css';
+   @import 'container/footer.css';
